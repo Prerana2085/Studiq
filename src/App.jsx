@@ -1,6 +1,6 @@
+"use client"
 // App.jsx
-import './App.css';
-
+import './index.css';
 import React, { useState } from 'react';
 
 const App = () => {
@@ -69,7 +69,7 @@ const App = () => {
       {/* Search Button */}
       <button
         onClick={handleSearch}
-        className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+        className="bg-black text-white px-6 py-2 rounded hover:bg-blue-700"
       >
         Search
       </button>
